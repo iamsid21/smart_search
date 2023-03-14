@@ -13,7 +13,7 @@ function SearchEngine() {
         const searchEngines = [
             "https://www.google.com/search?q=",
             "https://www.youtube.com/results?search_query=",
-            "https://www.reddit.com/search?q=",
+            "https://medium.com/search?q=",
             "https://www.linkedin.com/search/results/all/?keywords=",
             "https://www.bing.com/search?q="
         ];
