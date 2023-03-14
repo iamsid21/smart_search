@@ -1,21 +1,37 @@
+.home-wrap {
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Style the search box container */
 .search-container {
-    width: 500px;
-    height: 50px;
-    margin: 50px auto;
+    width: 50%;
     position: relative;
+
+
 }
 
 form {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    gap: 22px ;
+    gap: 22px;
+}
+
+label {
+    text-align: center;
 }
 
 /* Style the search box input */
 .search-box {
     width: 100%;
     height: 100%;
+    margin-top: 10px;
     padding: 10px;
     border: none;
     font-size: 18px;
@@ -27,8 +43,8 @@ form {
 
 /* Style the search button */
 .search-button {
-    /* width: 50px; */
     height: 50px;
+    width: 45%;
     border: none;
     background-color: #fff;
     color: #333;
@@ -37,6 +53,8 @@ form {
     outline: none;
     box-shadow: 0px 0px 10px #ccc;
     transition: background-color 0.3s ease-in-out;
+
+    border-radius: 12px;
 }
 
 /* Add hover effects to the search box and search button */

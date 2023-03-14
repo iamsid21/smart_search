@@ -23,19 +23,25 @@ function SearchEngine() {
     }
 
     return (
-        <div className='search-container'>
-            <form onSubmit={handleSearch}>
-                <label>
-                    Search Term:
-                    <input
-                        className='search-box'
-                        type="text" value={searchTerm} onChange={handleInputChange} />
-                </label>
-                <button
-                    className='search-button'
-                    type="submit">Search</button>
-            </form>
-        </div>
+        <>
+            <div className="home-wrap">
+
+                <div className='search-container'>
+                    <form onSubmit={handleSearch}>
+                        <label>
+                            Search Term
+                            <input
+                                className='search-box'
+                                type="text" value={searchTerm} onChange={handleInputChange} />
+                        </label>
+                        <button
+                            className='search-button'
+                            type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+
+        </>
     );
 }
 
